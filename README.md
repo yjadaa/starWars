@@ -1,4 +1,4 @@
-starWars (Unity 3d, Kinect SDK and C#)
+starWars (Unity 3d, the Microsoft Kinect and C#)
 ========
 
 Jedi Training simulator game:<br\>
