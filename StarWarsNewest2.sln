@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{AEACA17C-2A4E-2406-E651-6050161E3E9B}") = "StarWarsNewest2", "Assembly-CSharp.csproj", "{2A78BCCD-BCD2-32D5-0969-C4C9814E7A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A78BCCD-BCD2-32D5-0969-C4C9814E7A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A78BCCD-BCD2-32D5-0969-C4C9814E7A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A78BCCD-BCD2-32D5-0969-C4C9814E7A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A78BCCD-BCD2-32D5-0969-C4C9814E7A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7D6AE009-9A23-B5C4-4D42-7EB1F3164FDF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_2;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\root\Scripts\DroidBehavior.cs" />
+     <Compile Include="Assets\root\Scripts\EnemyBehavior.cs" />
+     <Compile Include="Assets\root\Scripts\GestureRecognizer.cs" />
+     <Compile Include="Assets\root\Scripts\KUInterface.cs" />
+     <Compile Include="Assets\root\Scripts\LaserBehavior.cs" />
+     <Compile Include="Assets\root\Scripts\LeftArmForce.cs" />
+     <Compile Include="Assets\root\Scripts\LeftForearm.cs" />
+     <Compile Include="Assets\root\Scripts\LeftUpperarm.cs" />
+     <Compile Include="Assets\root\Scripts\Music.cs" />
+     <Compile Include="Assets\root\Scripts\MyGUI.cs" />
+     <Compile Include="Assets\root\Scripts\MyGUI1.cs" />
+     <Compile Include="Assets\root\Scripts\Part2EnemySpawner.cs" />
+     <Compile Include="Assets\root\Scripts\PlayerBehavior.cs" />
+     <Compile Include="Assets\root\Scripts\RightForearm.cs" />
+     <Compile Include="Assets\root\Scripts\RightUpperArm.cs" />
+     <Compile Include="Assets\root\Scripts\SaberBehavior.cs" />
+     <Compile Include="Assets\root\Scripts\Selector.cs" />
+     <Compile Include="Assets\root\Scripts\Shoulders.cs" />
+     <Compile Include="Assets\root\Scripts\SpellDamage.cs" />
+     <None Include="Assets\root\Shaders\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\root\Shaders\Decal.shader" />
+     <None Include="Assets\root\Shaders\Alpha-Glossy.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\root\Shaders\Internal-Flare.shader" />
+     <None Include="Assets\root\Shaders\Alpha-Diffuse.shader" />
+     <None Include="Assets\root\Shaders\Illumin-Bumped.shader" />
+     <None Include="Assets\root\Shaders\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\root\Shaders\Internal-Halo.shader" />
+     <None Include="Assets\root\Shaders\Alpha-VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Normal-VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\root\Shaders\Reflect-Bumped.shader" />
+     <None Include="Assets\root\Shaders\Normal-Bumped.shader" />
+     <None Include="Assets\root\Shaders\Font.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\root\Shaders\Internal-PrePassCollectShadows.shader" />
+     <None Include="Assets\root\Shaders\Internal-GUITextureClip.shader" />
+     <None Include="Assets\root\Shaders\Particle AddSmooth.shader" />
+     <None Include="Assets\root\Shaders\Internal-PrePassLighting.shader" />
+     <None Include="Assets\root\Shaders\Particle MultiplyDouble.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-Glossy.shader" />
+     <None Include="Assets\root\Shaders\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\root\Shaders\Illumin-VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Illumin-Diffuse.shader" />
+     <None Include="Assets\root\Shaders\Illumin-Glossy.shader" />
+     <None Include="Assets\root\Shaders\Particle Multiply.shader" />
+     <None Include="Assets\root\Shaders\Particle VertexLit Blended.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\root\Shaders\Reflect-BumpSpec.shader" />
+     <None Include="Assets\root\Shaders\Normal-Parallax.shader" />
+     <None Include="Assets\root\Shaders\Normal-Diffuse.shader" />
+     <None Include="Assets\root\Shaders\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\root\Shaders\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\root\Shaders\Reflect-Diffuse.shader" />
+     <None Include="Assets\root\Shaders\Internal-GUITexture.shader" />
+     <None Include="Assets\root\Shaders\Internal-BlitCopy.shader" />
+     <None Include="Assets\root\Shaders\Particle Blend.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Camera-DepthTexture.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\root\Shaders\Reflect-BumpNolight.shader" />
+     <None Include="Assets\root\Shaders\Particle Alpha Blend.shader" />
+     <None Include="Assets\root\Shaders\Particle Add.shader" />
+     <None Include="Assets\root\Shaders\Alpha-BumpSpec.shader" />
+     <None Include="Assets\root\Shaders\Reflect-Parallax.shader" />
+     <None Include="Assets\root\Shaders\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\root\Shaders\Skybox.shader" />
+     <None Include="Assets\root\Shaders\Normal-Glossy.shader" />
+     <None Include="Assets\root\Shaders\Particle AddMultiply.shader" />
+     <None Include="Assets\root\Shaders\skybox cubed.shader" />
+     <None Include="Assets\root\Shaders\Normal-BumpSpec.shader" />
+     <None Include="Assets\root\Shaders\Flare.shader" />
+     <None Include="Assets\root\Shaders\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\root\Shaders\Shadow-ScreenBlur.shader" />
+     <None Include="Assets\root\Shaders\Alpha-Bumped.shader" />
+     <None Include="Assets\root\Shaders\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\root\Shaders\Illumin-BumpSpec.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-Bumped.shader" />
+     <None Include="Assets\root\Shaders\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\root\Shaders\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\root\Shaders\Illumin-Parallax.shader" />
+     <None Include="Assets\root\Shaders\Reflect-Glossy.shader" />
+     <None Include="Assets\root\Shaders\Alpha-Parallax.shader" />
+     <None Include="Assets\root\Shaders\Reflect-VertexLit.shader" />
+     <None Include="Assets\root\Shaders\Particle Premultiply Blend.shader" />
+     <None Include="Assets\root\Shaders\Normal-DiffuseFast.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
