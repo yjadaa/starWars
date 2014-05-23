@@ -7,7 +7,7 @@ First, it contains a training droid, that moves around randomly and shoots laser
 Second, the simulator will have attack droids that come after you. The user’s job in this case is to fend off these droids by using the lightsaber or the force.<br\>
 <br\>
 Player can:<br\>
-1. Shoot lightening out of your hands.<br\>
+1. Shoot lightening out of their hands.<br\>
 2. Grab objects to throw them at enemies.<br\>
 3. Send a wave of energy that can knock down an enemy.<br\>
-4. Heal yourself.<br\>
+4. Heal him/herself.<br\>
